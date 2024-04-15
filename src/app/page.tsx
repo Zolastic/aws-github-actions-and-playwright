@@ -1,3 +1,5 @@
+import PlayWrightDemo from "@/components/PlayWrightDemo";
+
 export default async function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#fdfbfb] to-[#ebedee] text-white">
@@ -7,6 +9,7 @@ export default async function Home() {
           PlayWright <span className="text-slate-400">App</span>
         </h1>
       </div>
+      <PlayWrightDemo />
     </main>
   );
 }
